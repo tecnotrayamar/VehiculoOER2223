@@ -5,7 +5,7 @@ package vehiculo;
  *
  * @author IES Aguadulce
  */
-public class Vehiculo {
+public class VehiculoOER2223 {
 
     private String nombre;
     private double precio;
@@ -13,13 +13,13 @@ public class Vehiculo {
     private int stock;
 
     /* Constructor sin argumentos */
-    public Vehiculo ()
+    public VehiculoOER2223 ()
     {
     }
     // Constructor con parámetro para iniciar todas las propiedades de la clase
     
     
-    public Vehiculo (String nom, double precio, int stock)
+    public VehiculoOER2223 (String nom, double precio, int stock)
     {
         this.nombre =nom;
         this.precio=precio;
